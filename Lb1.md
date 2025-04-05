@@ -274,8 +274,3 @@ GRANT SELECT ON public.test_table TO limited_user;
 CREATE ROLE common_role;
 GRANT SELECT, INSERT ON public.test_table TO common_role;
 ALTER ROLE limited_user INHERIT common_role;
-```
-
----
-
-Если хочешь, я могу это всё экспортировать в PDF или Markdown-файл — только скажи!
